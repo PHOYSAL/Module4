@@ -1,4 +1,4 @@
-nav ul{
+nav > ul{
     display: flex;
 }
 nav li {
@@ -12,4 +12,12 @@ nav a {
 }
 nav li:hover{
     background-color: gray;
+}
+nav li .tble {
+    display: none;
+    position: absolute;
+    padding-left: 0px;
+}
+nav li:hover > .tble {
+    display: block;
 }
