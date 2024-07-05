@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Table</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+        td,th {
+            border: 1px solid black;
+            padding: 5px 10px;
+        }
+    </style>
+    <link rel="stylesheet" href="style/nav.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Index</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="secondform.html">Second</a></li>
+                <li><a href="table.html">Table</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>HTML table</h2>
+    <table>
+        <caption>Employee Data</caption>
+        <thead>
+            <th>No</th>
+            <th>Name</th>
+            <th>Company</th>
+            <th>Salary</th>
+        </thead>
+        <tbody>
+            <tr>
+            <td>1</td>
+            <td>David</td>
+            <td>Microsoft</td>
+            <td>$1500</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>John</td>
+                <td>Google</td>
+                <td>$2000</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Down</td>
+                <td>Apple</td>
+                <td>$2500</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">Total Employee:3</td>
+            </tr>
+        </tfoot>
+    </table>
+    </main>
+</body>
+</html>

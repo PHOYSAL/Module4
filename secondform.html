@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="shortcut icon" href="https://img.icons8.com/?size=50&id=7BHYSrE6cAZk&format=png" type="image/x-icon">
+    <link rel="stylesheet" href="style/nav.css">
+    <style>
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Index</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="secondform.html">Second</a></li>
+                <li><a href="table.html">Table</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h3>Fill Up Form</h3>
+            <form action="">
+                <label for="name">Your Name:
+                    <input type="text" placeholder="name">
+                </label>
+                <label for="email">Your Email:
+                    <input type="email" name="" id="email" placeholder="Your Email">
+                </label>
+                <label for="phone">Your Phone:
+                    <input type="phone" name="" id="phone" placeholder="Your Phone">
+                </label>
+                <fieldset>
+                    <legend>Pick This One</legend>
+                    <label for="pen">
+                        <input type="radio" name="shop" id="pen">Pen
+                    </label>
+                    <label for="Paper">
+                        <input type="radio" name="shop" id="paper">Paper
+                    </label>
+                    <label for="book">
+                        <input type="radio" name="shop" id="book">Book
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Pick One or More</legend>
+                    <label for="pen">
+                        <input type="checkbox" name="shop" id="pen">Red 
+                    </label>
+                    <label for="pen">
+                        <input type="checkbox" name="shop" id="pen">Green 
+                    </label>
+                    <label for="pen">
+                        <input type="checkbox" name="shop" id="pen">Yellow 
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Special Instruction</legend>
+                    <textarea name="" id=""></textarea>
+                </fieldset>
+                <input type="reset" value="Reset">
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+</html>

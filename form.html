@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form fill up</title>
+    <link rel="stylesheet" href="style/nav.css">
+    <style>
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Index</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="secondform.html">Second</a></li>
+                <li><a href="table.html">Table</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>This is a Form</h2>
+            <form action="">
+                <label for="name">Your Name:
+                    <input type="text" placeholder="Your Name">
+                </label>
+                <label for="email">Your Email:
+                    <input type="email" id="email" placeholder="Your Email">
+                </label>
+                <label for="phone">Your phone:
+                    <input type="text" id="phone" placeholder="Your phone">
+                </label>
+                <fieldset>
+                    <legend>Pick One</legend>
+                    <label for="Pen">
+                        <input type="radio" name="one" id="Pen">Pen
+                    </label>
+                    <label for="Paper">
+                        <input type="radio" name="one" id="Paper">Paper
+                    </label>
+                    <label for="Book">
+                        <input type="radio" name="one" id="Book">Book
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Pick One or More</legend>
+                    <label for="Pen">
+                        <input type="checkbox" name="shop" id="Pen">Pen
+                    </label>
+                    <label for="Paper">
+                        <input type="checkbox" name="shop" id="Paper">Paper
+                    </label>
+                    <label for="book">
+                        <input type="checkbox" name="shop" id="book">Book
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Special Instruction</legend>
+                    <textarea name="" id="" cols="25" rows="10"></textarea>
+                </fieldset>
+                <input type="reset" value="Reset">
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
